@@ -4,19 +4,19 @@ function hi() {
   var firstNameUpperCase = firstName.charAt(0).toUpperCase();
   var firstNameLowerCase = firstName.slice(1, firstName.length).toLowerCase();
   var firstNameFull = firstNameUpperCase + firstNameLowerCase;
-  if (passwordName === "Kathitisthebest") {
+  if (passwordName === "kathitisthebest") {
     alert("Hi " + firstNameFull + ", welcome to my website");
     document.querySelectorAll("a")[0].href="real.html";
-  } else if (firstNameFull === "Feduniw" && passwordName === "Iamthebest") {
+  } else if (firstNameFull === "Feduniw" && passwordName === "iamthebest") {
     alert("Hello Ms.Feduniw, welcome to my website");
     document.querySelectorAll("a")[0].href="real.html";
-  } else if (firstNameFull === "Cindy" && passwordName === "Iamthebest") {
+  } else if (firstNameFull === "Cindy" && passwordName === "iamthebest") {
     alert("Hello Ms.Feduniw, welcome to my website");
     document.querySelectorAll("a")[0].href="real.html";
-  } else if (firstNameFull === "Feduniw" && passwordName === "Kathitisthebest") {
+  } else if (firstNameFull === "Feduniw" && passwordName === "kathitisthebest") {
     alert("Hello Ms.Feduniw, welcome to my website");
     document.querySelectorAll("a")[0].href="real.html";
-  } else if (firstNameFull === "Cindy" && passwordName === "Kathitisthebest") {
+  } else if (firstNameFull === "Cindy" && passwordName === "kathitisthebest") {
     alert("Hello Ms.Feduniw, welcome to my website");
     document.querySelectorAll("a")[0].href="real.html";
   } else {

@@ -13,6 +13,12 @@ function hi() {
   } else if (firstNameFull === "Cindy" && passwordName === "Iamthebest") {
     alert("Hello Ms.Feduniw, welcome to my website");
     document.querySelectorAll("a")[0].href="real.html";
+  } else if (firstNameFull === "Feduniw" && passwordName === "Kathitisthebest") {
+    alert("Hello Ms.Feduniw, welcome to my website");
+    document.querySelectorAll("a")[0].href="real.html";
+  } else if (firstNameFull === "Cindy" && passwordName === "Kathitisthebest") {
+    alert("Hello Ms.Feduniw, welcome to my website");
+    document.querySelectorAll("a")[0].href="real.html";
   } else {
     alert(
       "Hi " + firstNameFull + ", please try again. Password is incorrect, Retry"

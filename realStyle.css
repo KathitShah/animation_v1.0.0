@@ -15,7 +15,8 @@ body {
 
 .form-signin {
   width: 100%;
-  max-width: 70rem;
+  max-width: 50rem;
+  max-height: 100rem;
   padding: 15px;
   margin: auto;
   text-align: center;
@@ -52,4 +53,18 @@ color:#ffffff;
 }
 .carousel-item img {
   max-height: 40rem; /* input your desired height here */
+}
+.black{
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:red;}
 }

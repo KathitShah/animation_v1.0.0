@@ -68,3 +68,29 @@ color:#ffffff;
   75%  {background-color:green;}
   100% {background-color:red;}
 }
+.relative{
+  position: absolute;
+  top: 0;
+}
+.planet{
+  left: 0;
+}
+.starwars{
+  left: 25vw;
+}
+.life-craft{
+  top: 63vh;
+}
+.tiger{
+  left: 42vw;
+  top: 51.9vh;
+}
+.pringles{
+  left: 65vw;
+}
+#subsc{
+  position: absolute;
+  top: 90vh;
+  left: 50vw;
+  color: grey;
+}

@@ -83,14 +83,37 @@ color:#ffffff;
 }
 .tiger{
   left: 42vw;
-  top: 51.9vh;
+  top: 51.7vh;
 }
 .pringles{
   left: 65vw;
 }
 #subsc{
   position: absolute;
-  top: 90vh;
+  bottom: 1vh;
   left: 50vw;
   color: grey;
+}
+.zoom-heading{
+  position: relative;
+  top: 7vh;
+}
+.colors{
+  color: red;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example2 {
+  0%   {color:red;}
+  25%  {color:yellow;}
+  50%  {color:blue;}
+  75%  {color:green;}
+  100% {color:red;}
+}
+@media screen and (max-width: 1094px) {
+  .zoom-heading{
+    width:15rem;
+    background-color: white;
+  }
 }

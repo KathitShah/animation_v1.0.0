@@ -55,18 +55,10 @@ color:#ffffff;
   max-height: 40rem; /* input your desired height here */
 }
 .black{
-  background-color: red;
-  animation-name: example;
+  color: red;
+  animation-name: example2;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-}
-
-@keyframes example {
-  0%   {background-color:red;}
-  25%  {background-color:yellow;}
-  50%  {background-color:blue;}
-  75%  {background-color:green;}
-  100% {background-color:red;}
 }
 .relative{
   position: absolute;
